@@ -308,7 +308,6 @@ h5 {
   min-height: 812px;
   background-color: var(--flowink-light-green-color);
   padding-top: 200px;
-  background-image: url("img/hero-bg.png");
   background-size: 611px 558px;
   background-repeat: no-repeat;
   background-position: top 200px right calc(50vw - 720px);
