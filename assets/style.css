@@ -218,10 +218,16 @@ h5 {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  padding: 18px 85px;
+  padding: 18px 40px;
   color: var(--flowink-white-color);
   background-color: var(--flowink-btn-primary);
   border-radius: 80px;
+}
+
+.btn-flowink:hover, .btn-flowink:active, .btn-flowink:focus {
+  color: var(--flowink-btn-primary);
+  background-color: var(--flowink-white-color);
+  border: 1px solid var(--flowink-btn-primary);
 }
 
 .money-back {
@@ -323,7 +329,7 @@ h5 {
   margin-bottom: 28px;
 }
 #hero .section-content .btn-flowink {
-  width: 380px;
+  width: 379px;
 }
 
 #hero .section-content .money-back {
@@ -465,7 +471,9 @@ h5 {
   padding-top: 154px;
   padding-bottom: 203px;
 }
-
+#portions .section-content {
+  --bs-gutter-x: 80px;
+}
 #portions h3 {
   margin-bottom: 20px;
 }
@@ -485,4 +493,37 @@ h5 {
   background-position: center;
   background-image: url("img/portion-star.svg");
   margin-right: 10px;
+}
+#portions .btn-flowink {
+  margin-top: 40px;
+  width: 379px;
+}
+#portions .money-back {
+  margin-top: 17px;
+}
+#portions .portions-thumb {
+  width: 100%;
+  background: #E0E0E0;
+  border-radius: 30px;
+}
+
+
+/* Footer */
+#footer {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#footer .social-links {
+
+}
+#footer .social-links span {
+  margin-right: 16px;
+}
+#footer .social-links .social-link {
+  margin-right: 16px;
+}
+#footer .footer-logo {
+  width: 240px;
+  height: 85px;
 }
